@@ -1,9 +1,5 @@
-I denna övning kommer du att skapa en nedräkningstimer i React. Timern ska starta från ett givet antal sekunder och räkna ner varje sekund. Du kommer att använda React-hooks som useEffect och useRef för att hantera timer-logiken.
-
 <img src="src\assets\screenshot2024-08-29110953.png" width="70%">
 
-
-<img src="src\assets\screenshot2024-08-2911154.png" width="70%">
 
 Nedräkningstimer
 
@@ -20,5 +16,7 @@ Starta/Pausa: Timer kan startas eller pausas med en knapp. Om timern når 0, åt
 
 Visuellt Meddelande: När nedräkningen är slut, visas ett meddelande med texten "Tidens slut!".
 
+<img src="src\assets\screenshot2024-08-2911154.png" width="70%">
 
-Designen är responsiv och användarvänlig med tydliga färgindikatorer för inmatningens tillstånd och felmeddelanden.
+
+Designen är responsiv och användarvänlig med tydliga färgindikatorer för inmatningens tillstånd och felmeddelanden. Projektet använder React-hooks som **useEffect** och **useRef** för att hantera timer-logiken effektivt.
