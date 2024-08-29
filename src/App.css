@@ -5,4 +5,17 @@
   text-align: center;
 }
 
+#user-time-input {
+  max-width: 80px; 
+  padding: 5px; 
+  box-sizing: border-box; 
+  text-align: center; 
+  font-size: 16px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  transition: width 0.2s ease;
 
+  &:disabled {
+    background-color: darkgrey;
+  }
+}
