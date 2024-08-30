@@ -7,23 +7,41 @@
 
 #timer-frame {
   background-color: #f0f0f0;
-  border: 2px solid #999494; 
+  border: 2px solid #999494;
   border-radius: 5px;
   padding: 10px 20px;
 
 }
 
 #user-time-input {
-  max-width: 80px; 
-  padding: 5px; 
-  box-sizing: border-box; 
-  text-align: center; 
-  font-size: 16px; 
-  border: 1px solid #ccc; 
-  border-radius: 4px; 
+  max-width: 80px;
+  padding: 5px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
   transition: width 0.2s ease;
 
   &:disabled {
     background-color: darkgrey;
   }
+}
+
+.button-container {
+  position: relative;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.hover-text {
+  position: absolute;
+  visibility: hidden;
+  top: -20%;
+  left: 20%;
+}
+
+.icon-button:hover+.hover-text {
+  visibility: visible;
+  opacity: 1;
 }
