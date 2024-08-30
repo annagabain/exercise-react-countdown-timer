@@ -63,7 +63,7 @@ export default function CountdownTimer() {
     }
 
     return (
-        <div>
+        <div id="timer-frame">
             <h1>Nedräkningstimer</h1>
             <label>
                 <p>Ange en anpassad starttid:</p>
