@@ -82,13 +82,16 @@ export default function CountdownTimer() {
             {error && <p style={{ color: 'red' }}>{error}</p>}
             <h2>{timeLeft > 0 ? `${timeLeft} sekunder kvar` : `Tidens slut!`} </h2>
             <button onClick={handleStartandPause}>
-                {isActive && timeLeft > 0 ? "Pausa" : "Starta"}
+                {/* {isActive && timeLeft > 0 ? "Pausa" : "Starta"} */}
+                <i className={`fas ${isActive && timeLeft > 0 ? "fa-pause" : "fa-play"}`}></i>
+       
             </button>
-            <button onClick={handleReset}>Återställ</button>
-
+            {/* <button onClick={handleReset}>Återställ</button> */}
+            <button onClick={handleReset}>
+                <i className="fas fa-redo"></i>
+            </button>
 
         </div>
     );
-
 
 }
